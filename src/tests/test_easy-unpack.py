@@ -7,7 +7,7 @@ def test_easy_unpack_01():
 
 
 def test_easy_unpack_02():
-    assert es.easy_unpack((1, 1, 1, 1)) == (1, 2, 1)
+    assert es.easy_unpack((1, 1, 1, 1)) == (1, 1, 1)
 
 
 def test_easy_unpack_03():
