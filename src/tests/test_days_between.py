@@ -10,7 +10,6 @@ def test_days_between02():
     assert app.days_diff((2014, 1, 1), (2014, 8, 27)) == 238
 
 
-## TODO ... and so on ... error
 def test_days_between03():
     assert app.days_diff((2014, 8, 27), (2014, 1, 1)) == 238
 
